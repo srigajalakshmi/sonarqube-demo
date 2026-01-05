@@ -20,3 +20,4 @@ jobs:
             -Dsonar.projectKey=srigajalakshmi_sonarqube-demo
             -Dsonar.organization=srigajalakshmi
             -Dsonar.sources=.
+            -Dsonar.python.version=3
