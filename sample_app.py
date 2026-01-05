@@ -3,7 +3,6 @@ import sqlite3
 
 # Hardcoded secret (Vulnerability)
 API_KEY = "123456-SECRET-KEY"
-
 def get_user(username):
     conn = sqlite3.connect("users.db")
     cursor = conn.cursor()
